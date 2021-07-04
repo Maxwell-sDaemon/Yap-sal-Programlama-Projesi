@@ -1,0 +1,6 @@
+1 1008009 ali temür
+2 18011014 kenan ışık
+3 15070023 maria sharapova
+4 15070025 terry henry
+5 15070026 david beckham
+Sınıf mevcudunuz 6

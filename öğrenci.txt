@@ -1,0 +1,14 @@
+123,ali,demir,0,0
+?,?,?,?,?
+18011078,onur,atsiz,10,30
+15070028,sergio,gomez,5,20
+15070023,maria,sharapova,4,19
+15070024,usain,bolt,3,10
+15070025,terry,henry,2,5
+15070026,david,beckham,3,9
+15070028,kemal,sunal,5,18
+14070027,sadri,alışık,4,20
+14070030,münir,özkul,3,16
+28011078,onur,demir,3,16
+10011000,ali,sel,4,
+219012020,Selma,Kangal,0,0

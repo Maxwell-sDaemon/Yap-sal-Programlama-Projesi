@@ -1,0 +1,5 @@
+18011078,onur,demir,5,20
+16076088,zehra,göl,5,15
+15025255,tarık,mutlu,3,8
+16078023,aslı,koçak,5,25
+18066001,mehmet emin,kaymaksız,1,23

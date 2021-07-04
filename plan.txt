@@ -1,0 +1,58 @@
+menü 
+(1) - Öğrenci Kayıt İşlemleri
+(2) - Ders Ekleme 
+(3) - Akademisyen Kayıt Işlemleri
+
+(1)ÖĞRENCİ
+   -- (1) - Öğrenci Kayıt       giriş yılınız 20-(18) bölüm numaranız (11) kaçıncı sırada girdiniz. (018) 
+																Adınız 
+																Soyadınız
+																0 , 0 kaydolduğu ders sayısı kredi sayısı (artık ders seçebilirsiniz.)					
+   -- (2) - Öğrenci sil         Öğrenci silinecek emin misiniz ? (y/n) şu kadar kayıt .... silindi.
+   -- (3) - Öğrenci bilgisi ve bilgiyi güncelleme     Öğrenci bloğunu yazdır . Çıkış(0) 
+																			Güncellenecek bilgi (1) AD
+																								(2) Soyad Öğrenci bloğu yaz
+
+(3) Akademisyen Ekle
+   -- (1) - id(auto),adı,soyadı,ünvan bilgileri block yazdır.
+																								
+(2)DERS 
+	-- (1) - Ders Ekle          Ders Kodu , adı , kredisi, kontenjanı, dersi veren hocanın id si ( hocayı yazdır(yoksa böyle hoca bulunmamaktadır. ) 
+																									hoca id si giriniz. struct güncellenerek işlem yeniden yapılır.
+																									--> dersi yazdır. )
+	-- (2) - Ders Sil           Ders Kodu gir. -> dersle ilgili tüm veriler silinecek emin misiniz? (ders bloğunu structa kopyala sonra sil.
+																										ders logunda gez.
+																										dersi alan öğrencinin kayıtlı 1 ise
+																										kaydolduğu ders sayısını azalt.
+																										kredi sayısını azalt.(struct yapısında bilgiler tutulmakta)
+																										ders log bloğunu unknown yap
+																									
+	-- (3) - Ders güncelle      (1) ders adı değiştir. (2) Kontenjan arttır. 
+
+(4) Ders Kayıt
+	derse kayıt işlemindesiniz 
+	(0) çıkış yap.
+	(1) öğrenci numaranızı girin.
+	lütfen öğrenci numaranızı girin.
+	sistemdeki dersleriniz. (0) çıkış yap (1) kayıt yap
+	-- (1) derse_kayıt_ol - öğrenci Numaranızı giriniz, kaydolunacak dersin ders kodunu yazınız. (dersi al struct ata.) + (ögrenci al struct ata) öğrenci uygun mu?
+																										Err 1: kredi aşıldı.
+																										Err 2: toplam ders aşıldı.
+																									else derse başarı ile kayıt olundu.
+	-- (2) dersi bırak    - öğrenci Numaranızı giriniz.
+	ders kodundan ( dersi struct a at ), 
+	öğrencinin kaydolunan ders ve kredi sayısını azalt.
+	öğrenci no - ders kodu eşleşmesi yoksa --> böyle bir ders almamaktasınız.
+
+(5) ID öğretim görevlisi verilen dersler--> (öğretim görevlisi dosyasından adını öğren)(dersler dosyasında gez , eşlesen id lerdeki blokların ders adını ekrana yaz.)
+(6) Öğrenci numarası verilen öğrencinin aldığı dersler --> (öğrenciler dosyasından öğrenci numarasını)
+								(ders log dan öğrenci no-ders kodu kayıtlı 1 olan bloğu seç)
+										(ders kodundan dersler dosyasını açıp ders kodunun eşleştiği kısımdan ders adını al.),
+										öğrenci adı, soyadı, ders adı  geri dön (0)
+
+(7) ders-kodu ile sınıfları oluştur.--> ( "akademisyen_id ile akademisyen adını al" + "ders_kodu"_SINIF_LISTESI.txt dosyası oluştur.
+																akademisyen adını başa yaz ders adını sonra yaz.
+															ders_log aç kayıtlı 1 olan ve ders kodu eşleşenlerin öğrenci numarasını al.
+															öğrenciler dosyasını aç orada numara ile eşleşen değeri al.
+															sınıf listesine yaz)
+	

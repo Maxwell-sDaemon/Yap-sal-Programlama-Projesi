@@ -1,0 +1,12 @@
+1000,ferkan,yılmaz,Yardımcı Doçent
+1234,kerimcan,ada,Profesör Dr
+11,yaren,ortalı,Doktor
+1,ziya,battal,Okutman
+2,faruk,göze,Doktor
+3,Semih,Boyacı,Doçent                
+4,Tülin,Boyar, Doçent
+5,Fahriye,Aslan, Doçent
+6,Usain,bolt,Doçent
+100,ferkan,neyzen,uzman
+101,hamidiye,hanımkız,Yardımcı Doçent
+102,Ahmet,Yakacık,Doçent

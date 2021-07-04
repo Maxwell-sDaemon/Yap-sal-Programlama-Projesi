@@ -1,0 +1,18 @@
+1,?,?,?,?
+2,FIZ1010,18011078,0,010101
+4,bba,123,0,Fri Apr 25 20:18:24 4461664
+3,bbg,18011078,0,Fri Jan  1 17:00:16 2021
+5,AKA1000,13,1,Wed Jan  6 01:14:05 2021
+6,TIP1016,18011078,1,Wed Jan  6 01:14:05 2021
+7,MAT1010,125,0,Wed Jan  6 01:14:05 2021
+  pt_PT.ISO-8859-1
+romanian        ro_RO.ISO-8859-2
+russian         ru_RU.KOI8-R
+slovak          sk_SK.ISO-8859-2
+slovene         sl_SI.ISO-8859-2
+slovenian       sl_SI.ISO-8859-2
+spanish         es_ES.ISO-8859-1
+swedish         sv_SE.ISO-8859-1
+thai		th_TH.TIS-620
+turkish         tr_TR.ISO-8859-9
+

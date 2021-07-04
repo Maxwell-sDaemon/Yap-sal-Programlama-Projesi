@@ -1,0 +1,20 @@
+BLM1010,YAPISAL PROGRAMLAMA GIRIS,7,100,5
+bbg0,yeni,7,50,4
+bbg1,bilgisayar,7,80,6
+bbg2,bilimleri,7,100,1234
+bbg3,giriş,7,80,100
+bbg4,dersi,7,80,5
+bbg5,sevildi,7,80,4
+?,?,?,?,?                         
+TIP1015,BIYOINFORMATİK,5,70,3
+TIP1016,DA VINCI GIBI DUSUNMEK,2,68,3
+BLM1017,Genetik Algoritmalar,5,70,3
+AKA1000,HIZLI KOSMANIN TEMELLERI,2,50,6
+PASTA01,Prodtiferol Yapımı,1,15,10
+YEME018,Güzel yemek yapmanın ipuçları,2,25,3
+?,?,?,?,?
+BLM6065,Sinyaller ve Sistemler,8,120,1 
+KLM10101,Sinyaller ve Sistemler,12,100,2 
+BLM1213,Mikroişlemci Sistemleri,3,85,5 
+klml,KKKK,5,120,1 
+1,1,1,1,1 
